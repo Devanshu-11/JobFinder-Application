@@ -1,9 +1,8 @@
 INTRODUCTION:
 -------------
-        • Implemented a user authentication with features like login and registration using bcrypt
-        • User and Jobs APIs to handle operations like user profile management, job posting, updating, and deleting.
+        • Implemented bcryptjs for password hashing and elevated security using JSON web tokens.
+        • User and Jobs APIs to handle operations like user profile management, job posting, updating,deleting and fetch all
         • Enable users to filter jobs based on various criteria, such as location, industry, or job type, and implement sorting options to customize the display of results.
-        • Provide comprehensive API documentation to assist developers in understanding and integrating with your job
 
 TECHNOLOGIES USED:
 -------------------
