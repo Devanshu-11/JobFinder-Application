@@ -7,14 +7,14 @@ INTRODUCTION:
 
 TECHNOLOGIES USED:
 -------------------
-* JavaScript
-* NodeJs  
-* Express(framework)
-* Mongoose
+      • JavaScript
+      • NodeJs  
+      • Express(framework)
+      • Mongoose
 
 To Run Project:
 -------------------
-* npm run server
+      • npm run server
 
 
 DEPENDENCIES INSTALLED:
