@@ -7,48 +7,47 @@ INTRODUCTION:
 
 TECHNOLOGIES USED:
 -------------------
-      • JavaScript
-      • NodeJs  
-      • Express(framework)
-      • Mongoose
+        • JavaScript
+        • NodeJs  
+        • Express(framework)
+        • Mongoose
 
 To Run Project:
 -------------------
-      • npm run server
+        • npm run server
 
 
 DEPENDENCIES INSTALLED:
 ------------------------
-
-      * bcryptjs
-      * colors
-      * cors
-      * dotenv
-      * express
-      * express-async-errors
-      * express-mongo-sanitize
-      * express-rate-limit
-      * jsonwebtoken
-      * mongoose
-      * morgan
-      * nodemon
-      * validator
+        • bcryptjs
+        • colors
+        • cors
+        • dotenv
+        • express
+        • express-async-errors
+        • express-mongo-sanitize
+        • express-rate-limit
+        • jsonwebtoken
+        • mongoose
+        • morgan
+        • nodemon
+        • validator
 
 
 CONFIGURATION : 
 ---------------
-    In this folder, I have given all the values that can change in the application when used on different environment and systems. The DataBase information is also given in this folder.
+        In this folder, I have given all the values that can change in the application when used on different environment and systems. The DataBase information is also given in this folder.
 
 MODELS :
 --------
-    I have created 2 models here namely, 
-        * Job Model
-        * user Model
+        I have created 2 models here namely, 
+        • Job Model
+        • user Model
 
 
 CONTROLLERS : 
 -------------
-     This is the place where all the functionalities are defined for all the models present in the application. All the functionalities are accessed by using APIs from the authenticated and authorized users.
+        This is the place where all the functionalities are defined for all the models present in the application. All the functionalities are accessed by using APIs from the authenticated and authorized users.
 
      AUTH CONTROLLER:
      ----------------
@@ -56,7 +55,7 @@ CONTROLLERS :
     
      JOBS CONTROLLER:
      --------------------
-        In this file, authenticated user can Create, update, find one, find All or delete the categories in the application.
+        Refactored job controller with clear functions: create, delete, get, update, search, sort. Utilizes meaningful names, docstrings, error handling, and consistent formatting for improved readability and maintainability.
 
      TEST CONTROLLER:
      ------------------
@@ -64,15 +63,19 @@ CONTROLLERS :
 
      USER CONTROLLER:
      ----------------
-        In this file, authenticated use will have the accessability to create or update the new cart. Finally everything present in that cart will be displayed to the user along with the total price of the cart.
+        Enhanced user controller now empowers seamless user updates, ensuring personalized and efficient user management.
 
 MIDDLEWARE:
 -----------
-      This is the folder where every API requests are validated, also every user is authenticated and authorized using json web tokens.
+        This is the folder where every API requests are validated, also every user is authenticated and authorized using json web tokens.
 
 ROUTES:
 -------
-      This is the folder where every API call source is present, for each API call control is transferred to the correct controller file where all the functionalities are done. Before passing the control to the controllers, middlewares are called to check the authenticity and validation of the API call.
+        This is the folder where every API call source is present, for each API call control is transferred to the correct controller file where all the functionalities are done. Before passing the control to the controllers, middlewares are called to check the authenticity and validation of the API call.
+        • auth Routes
+        • jobs Routes
+        • test Routes
+        • user Routes
 
 
 All API:
