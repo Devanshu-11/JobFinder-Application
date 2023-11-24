@@ -40,29 +40,29 @@ CONFIGURATION :
 MODELS :
 --------
         I have created 2 models here namely, 
-        • Job Model
-        • user Model
+                • Job Model
+                • user Model
 
 
 CONTROLLERS : 
 -------------
         This is the place where all the functionalities are defined for all the models present in the application. All the functionalities are accessed by using APIs from the authenticated and authorized users.
 
-     AUTH CONTROLLER:
-     ----------------
-        This the place where the user will be redirected when they want to sign up or sign in to the application. User who are signed in will be authenticated and be given with JSON WEB TOKENS, by using that tokens only the user can access the functionalities of the application.
+        AUTH CONTROLLER:
+        ----------------
+                This the place where the user will be redirected when they want to sign up or sign in to the application. User who are signed in will be authenticated and be given with JSON WEB TOKENS, by using that tokens only the user can access the functionalities of the application.
     
-     JOBS CONTROLLER:
-     --------------------
-        Refactored job controller with clear functions: create, delete, get, update, search, sort. Utilizes meaningful names, docstrings, error handling, and consistent formatting for improved readability and maintainability.
+        JOBS CONTROLLER:
+        --------------------
+                Refactored job controller with clear functions: create, delete, get, update, search, sort. Utilizes meaningful names, docstrings, error handling, and consistent formatting for improved readability and maintainability.
 
-     TEST CONTROLLER:
-     ------------------
-        In this file, the User will abe to test his application, whether it is running properly or not and change accordingly.
+        TEST CONTROLLER:
+        ------------------
+                In this file, the User will abe to test his application, whether it is running properly or not and change accordingly.
 
-     USER CONTROLLER:
-     ----------------
-        Enhanced user controller now empowers seamless user updates, ensuring personalized and efficient user management.
+        USER CONTROLLER:
+        ----------------
+                Enhanced user controller now empowers seamless user updates, ensuring personalized and efficient user management.
 
 MIDDLEWARE:
 -----------
@@ -71,10 +71,10 @@ MIDDLEWARE:
 ROUTES:
 -------
         This is the folder where every API call source is present, for each API call control is transferred to the correct controller file where all the functionalities are done. Before passing the control to the controllers, middlewares are called to check the authenticity and validation of the API call.
-        • auth Routes
-        • jobs Routes
-        • test Routes
-        • user Routes
+                • auth Routes
+                • jobs Routes
+                • test Routes
+                • user Routes
 
 
 All API:
