@@ -1,7 +1,7 @@
 INTRODUCTION:
 -------------
-        • Implemented bcryptjs for password hashing and elevated security using JSON web tokens.
-        • User and Jobs APIs to handle operations like user profile management, job posting, updating,deleting and fetch all
+        • Implemented secure login/register with bcryptjs for password hashing and elevated security using JSON web tokens.
+        • Developed resilient User and Jobs APIs for secure profile management, posting, updating, deleting, and data retrieval.
         • Enable users to filter jobs based on various criteria, such as location, industry, or job type, and implement sorting options to customize the display of results.
 
 TECHNOLOGIES USED:
