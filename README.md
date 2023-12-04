@@ -171,12 +171,13 @@ http://localhost:8080/api/v1/job/job-stats
 ```terminal
 Get method- (Body, raw,json) (headers-AUTHORIZATION)
 http://localhost:8080/api/v1/job/get-job?key=value
-
+```
 
 **11.** SORTING JOBS API
 ```terminal
 Get method- (Body, raw,json) (headers-AUTHORIZATION)
 http://localhost:8080/api/v1/job/get-job?sort=latest
+```
 
 DOTENV FILE:
 -------------------
