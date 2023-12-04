@@ -140,6 +140,7 @@ http://localhost:8080/api/v1/jobs/create-job
 ```terminal
 Get method- (Body, raw,json) (headers-AUTHORIZATION)
 http://localhost:8080/api/v1/job/get-job
+```
 
 
 **7.** UPDATE JOBS API
