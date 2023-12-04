@@ -177,3 +177,10 @@ http://localhost:8080/api/v1/job/get-job?key=value
 ```terminal
 Get method- (Body, raw,json) (headers-AUTHORIZATION)
 http://localhost:8080/api/v1/job/get-job?sort=latest
+
+DOTENV FILE:
+-------------------
+        • PORT=YOUR_PORT_CONNECTION
+        • DEV_MODE=YOUR_DEVELOPMENT_MODE
+        • MONGO_URL=YOUR_MONGO_CONNECTION
+        • JWT_SECRET=YOUR_JWT_TOKEN
