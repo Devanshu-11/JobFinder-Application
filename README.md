@@ -186,3 +186,14 @@ DOTENV FILE:
         • DEV_MODE=YOUR_DEVELOPMENT_MODE
         • MONGO_URL=YOUR_MONGO_CONNECTION
         • JWT_SECRET=YOUR_JWT_TOKEN
+
+GIT COMMANDS:
+-------------------
+        • git init
+        • git add .  
+        • git status
+        • git commit -m 'First Commit'
+        • git remote add origin GITHUB_ORIGIN
+        • git push origin master
+        • git pull origin master
+        • git push origin master
